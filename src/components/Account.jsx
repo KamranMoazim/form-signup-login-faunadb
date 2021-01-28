@@ -4,7 +4,7 @@ import React from 'react'
 function Account(result) {
 
 
-    if (result.result.name=="NotFound"){
+    if (result.result.name==="NotFound"){
         return <h1>Please Check your Gmail or Password</h1>
     }
 
